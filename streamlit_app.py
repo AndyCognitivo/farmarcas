@@ -21,3 +21,7 @@ st.markdown(
 
 st.title('Password Generator 🔑')
 st.text('Generate a random password with the length and characters of your choice.')
+
+st.sidebar.title('Settings')
+length = st.sidebar.slider('Length', 4, 64, 8, 1)
+chars = st.sidebar.multiselect('Characters', ['Letters', 'Digits', 'Punctuation'], ['Letters', 'Digits', 'Punctuation'])
