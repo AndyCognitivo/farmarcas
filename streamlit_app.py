@@ -84,7 +84,7 @@ df = df_pareto_func(merge_fato_cadastro, 'brick', 'categoria_ajustada', 'sum_uni
 
 
 
-#df_example = pd.DataFrame(np.array( [[1, 2, 3, 45], [4, 5, 6, 43], [3, 6, 2, 12]] ),
+df_example = pd.DataFrame(np.array( [[1, 2, 3, 45], [4, 5, 6, 43], [3, 6, 2, 12]] ),
 #                   columns=[ 'brick', 'utc', 'perfil loja', 'quantidade'])
 
-st.dataframe(df)
+st.dataframe(df_example)
