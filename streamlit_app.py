@@ -27,7 +27,7 @@ brick = st.multiselect('Selecione o brick:', [1,2,3,4,5])
 utc = st.multiselect('Selecione o UTC:', [6,7,8,9,10])
 perfil_loja = st.multiselect('Selecione o perfil de loja:', ['A','B','C','D','E'])
 
-df_example = pd.DataFrame(np.array( [[1, 2, 3], [4, 5, 6], [34,65,23]] ),
-                   columns=[ 'utc', 'perfil loja', 'quantidade'])
+df_example = pd.DataFrame(np.array( [[1, 2, 3, 45], [4, 5, 6, 43], [3, 6, 2, 12]] ),
+                   columns=[ 'brick', 'utc', 'perfil loja', 'quantidade'])
 
 st.dataframe(df_example)
