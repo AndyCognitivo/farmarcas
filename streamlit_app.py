@@ -4,7 +4,7 @@ import string
 
 st.set_page_config(
     page_title='Password Generator',
-    page_icon='🔑',
+    #page_icon='🔑',
     layout='wide'
 )
 
@@ -19,8 +19,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title('Password Generator 🔑')
-st.text('Generate a random password with the length and characters of your choice.')
+st.title('Smart Mix')
+st.text('Gerando a melhor sugestão de estoque para o seu negócio farmaceutico.')
 
 st.multiselect('Selecione o brick:', [1,2,3,4,5])
 
