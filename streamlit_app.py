@@ -3,7 +3,7 @@ import string
 
 
 st.set_page_config(
-    page_title='Password Generator',
+    page_title='SMART MIX - FARMARCAS',
     #page_icon='🔑',
     layout='wide'
 )
