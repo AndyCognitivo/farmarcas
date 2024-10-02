@@ -26,7 +26,7 @@ st.text('Gerando a melhor sugestão de estoque para o seu negócio farmaceutico.
 #============= processa dados start ==================
 
 #!pip install boto3
- pip install -r boto3
+!pip install -r boto3
 import pandas as pd
 import boto3
 import io
