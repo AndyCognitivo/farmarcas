@@ -51,8 +51,8 @@ cadastro_produtos_file_name = 'cadastro_produtos_iqvia_202409192057.csv'
 
 # Create an S3 client
 s3 = boto3.client('s3',
-                  aws_access_key_id= 'AKIARRDSZWDIZXKVM3OF',
-                  aws_secret_access_key= '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'
+                  aws_access_key_id= '',
+                  aws_secret_access_key= ''
                   )
 
 # ------- reading excel files ----------
